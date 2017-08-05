@@ -1,0 +1,20 @@
+{
+    "name": "kocal/zend-expressive-database",
+    "description": "Database subcomponent for Expressive",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Hugo Alliaume",
+            "email": "kocal@live.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kocal\\Expressive\\Database\\": "src/"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0"
+    }
+}
